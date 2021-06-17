@@ -10,25 +10,25 @@ With understandability comes
 * Maintainability.
 
 ### General rules
-Follow standard conventions.
-Keep it simple stupid. Simpler is always better. Reduce complexity as much as possible.
-Boy scout rule. Leave the campground cleaner than you found it.
-Always find root cause. Always look for the root cause of a problem.
+* Follow standard conventions.
+* Keep it simple stupid. Simpler is always better. Reduce complexity as much as possible.
+* Boy scout rule. Leave the campground cleaner than you found it.
+* Always find root cause. Always look for the root cause of a problem.
 
 ### Design rules
-Keep configurable data at high levels.
-Prefer polymorphism to if/else or switch/case.
-Separate multi-threading code.
-Prevent over-configurability.
-Use dependency injection.
-Follow Law of Demeter. A class should know only its direct dependencies.
-Understandability tips
-Be consistent. If you do something a certain way, do all similar things in the same way.
-Use explanatory variables.
-Encapsulate boundary conditions. Boundary conditions are hard to keep track of. Put the processing for them in one place.
-Prefer dedicated value objects to primitive type.
-Avoid logical dependency. Don't write methods which works correctly depending on something else in the same class.
-Avoid negative conditionals.
+* Keep configurable data at high levels.
+* Prefer polymorphism to if/else or switch/case.
+* Separate multi-threading code.
+* Prevent over-configurability.
+* Use dependency injection.
+* Follow Law of Demeter. A class should know only its direct dependencies.
+* Understandability tips
+* Be consistent. If you do something a certain way, do all similar things in the same way.
+* Use explanatory variables.
+* Encapsulate boundary conditions. Boundary conditions are hard to keep track of. Put the processing for them in one place.
+* Prefer dedicated value objects to primitive type.
+* Avoid logical dependency. Don't write methods which works correctly depending on something else in the same class.
+* Avoid negative conditionals.
 
 
 ### Names rules
