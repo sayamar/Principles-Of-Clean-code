@@ -32,79 +32,79 @@ With understandability comes
 
 
 ### Names rules
-Choose descriptive and unambiguous names.
-Make meaningful distinction.
-Use pronounceable names.
-Use searchable names.
-Replace magic numbers with named constants.
-Avoid encodings. Don't append prefixes or type information.
+* Choose descriptive and unambiguous names.
+* Make meaningful distinction.
+* Use pronounceable names.
+* Use searchable names.
+* Replace magic numbers with named constants.
+* Avoid encodings. Don't append prefixes or type information.
 
 
 ### Functions rules
-Small.
-Do one thing.
-Use descriptive names.
-Prefer fewer arguments.
-Have no side effects.
-Don't use flag arguments. Split method into several independent methods that can be called from the client without the flag.
+* Small.
+* Do one thing.
+* Use descriptive names.
+* Prefer fewer arguments.
+* Have no side effects.
+* Don't use flag arguments. Split method into several independent methods that can be called from the client without the flag.
 
 ### Comments rules
-Always try to explain yourself in code.
-Don't be redundant.
-Don't add obvious noise.
-Don't use closing brace comments.
-Don't comment out code. Just remove.
-Use as explanation of intent.
-Use as clarification of code.
-Use as warning of consequences.
+* Always try to explain yourself in code.
+* Don't be redundant.
+* Don't add obvious noise.
+* Don't use closing brace comments.
+* Don't comment out code. Just remove.
+* Use as explanation of intent.
+* Use as clarification of code.
+* Use as warning of consequences.
 
 ### Source code structure
-Separate concepts vertically.
-Related code should appear vertically dense.
-Declare variables close to their usage.
-Dependent functions should be close.
-Similar functions should be close.
-Place functions in the downward direction.
-Keep lines short.
-Don't use horizontal alignment.
-Use white space to associate related things and disassociate weakly related.
-Don't break indentation.
+* Separate concepts vertically.
+* Related code should appear vertically dense.
+* Declare variables close to their usage.
+* Dependent functions should be close.
+* Similar functions should be close.
+* Place functions in the downward direction.
+* Keep lines short.
+* Don't use horizontal alignment.
+* Use white space to associate related things and disassociate weakly related.
+* Don't break indentation.
 
 
 ### Objects and data structures
-Hide internal structure.
-Prefer data structures.
-Avoid hybrids structures (half object and half data).
-Should be small.
-Do one thing.
-Small number of instance variables.
-Base class should know nothing about their derivatives.
-Better to have many functions than to pass some code into a function to select a behavior.
-Prefer non-static methods to static methods.
+* Hide internal structure.
+* Prefer data structures.
+* Avoid hybrids structures (half object and half data).
+* Should be small.
+* Do one thing.
+* Small number of instance variables.
+* Base class should know nothing about their derivatives.
+* Better to have many functions than to pass some code into a function to select a behavior.
+* Prefer non-static methods to static methods.
 
 ## Code review
 
-Simplicty
-Readability & Maitainability 
-Match to Functional requirement
-Any side effects on existing code
-Concurrency if demanded
-Consistency
-Proper error and exception handling 
-Unit & Integration test ( minimum test coverage should be more than 60% )
+* Simplicty
+* Readability & Maitainability 
+* Match to Functional requirement
+* Any side effects on existing code
+* Concurrency if demanded
+* Consistency
+* Proper error and exception handling 
+* Unit & Integration test ( minimum test coverage should be more than 60% )
 
 
 ### Tests
-One assert per test.
-Readable.
-Fast.
-Independent.
-Repeatable.
+* One assert per test.
+* Readable.
+* Fast.
+* Independent.
+* Repeatable.
 
 ### Code smells
-Rigidity. The software is difficult to change. A small change causes a cascade of subsequent changes.
-Fragility. The software breaks in many places due to a single change.
-Immobility. You cannot reuse parts of the code in other projects because of involved risks and high effort.
-Needless Complexity.
-Needless Repetition.
-Opacity. The code is hard to understand.
+* Rigidity. The software is difficult to change. A small change causes a cascade of subsequent changes.
+* Fragility. The software breaks in many places due to a single change.
+* Immobility. You cannot reuse parts of the code in other projects because of involved risks and high effort.
+* Needless Complexity.
+* Needless Repetition.
+* Opacity. The code is hard to understand.
